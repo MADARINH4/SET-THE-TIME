@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 
 export default function Player() {
-  //Amazena a referencia do que foi posto no 'input' na variavel 'playerName'
+  //Amazena a referencia do que foi posto no DOM -> 'input' na variavel 'playerName'
   const playerName = useRef();
   const [enteredPlayerName, setEnteredPlayerName] = useState(null);
 
